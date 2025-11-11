@@ -445,7 +445,14 @@ body {
   width: 100%;
   min-height: 374px;
 }
-
+.section3 .right-content {
+  position: relative;
+  margin-top: 90px;
+  .section2-icon {
+    position: absolute;
+    z-index: -10;
+  }
+}
 .section3 .right-content {
   position: relative;
   margin-top: 90px;
@@ -712,7 +719,7 @@ body {
 
 .footer {
   background-color: #210933;
-  min-height: 689px;
+  min-height: 660px;
 }
 
 .footer .container {

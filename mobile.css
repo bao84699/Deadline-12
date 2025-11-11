@@ -150,13 +150,13 @@
   .bottom-background {
     background-position: center;
     background-size: 500%;
-    min-height: 720px;
+    min-height: 620px;
   }
   .section5-icon {
     display: none;
   }
   .section5 {
-    min-height: 700px;
+    height: 660Px;
     .container {
       flex-direction: column;
       align-items: center;
@@ -392,6 +392,7 @@
   }
   .section5 {
     .container {
+      height: 680px;
       .left-content {
         .box {
           margin: 0;
