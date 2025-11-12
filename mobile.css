@@ -20,7 +20,7 @@
   .hero-logo {
     margin-top: 33px;
     display: block;
-    max-width: 100%;
+    max-width: 95%;
     display: flex;
     justify-content: space-between;
     .logo1 {
@@ -281,6 +281,7 @@
     height: 23px;
   }
   .header {
+    max-width: 400px;
     .logo {
       .text {
         font-size: 20px;
@@ -288,12 +289,14 @@
     }
   }
   .hero {
+    max-width: 400px;
+
     .content {
       .big-text {
         font-size: 38px;
       }
       .small-text {
-        font-size: 14px;
+        font-size: 16px;
       }
       .button {
         max-width: 160px;
@@ -301,6 +304,12 @@
         font-size: 14.58px;
       }
     }
+  }
+  .hero-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
   }
   .hero-img1 {
     max-width: 270px;
@@ -372,7 +381,8 @@
   .section4 {
     .container {
       .right-content {
-        min-height: 215px;
+        height: 215px;
+        width: 150%;
       }
       .left-content {
         .box {
