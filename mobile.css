@@ -53,12 +53,14 @@
   .hero-img1 {
     max-width: 400px;
     top: 120%;
-    left: 0;
+    right: 33%;
+    left: auto;
   }
   .hero-img2 {
     max-width: 650px;
     top: 113%;
-    left: -17%;
+    right: 20%;
+    left:auto;
   }
   .middle-background {
     margin-top: 420px;
@@ -382,6 +384,7 @@
   .section4 {
     .container {
       .right-content {
+            background-image: url(assets/section4-imgCopy.png);
         height: 215px;
         width: 150%;
       }
