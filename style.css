@@ -713,9 +713,10 @@ body {
 
 .img5 {
   position: absolute;
-  top: 466px;
+  top: 450px;
   left: 231px;
   right: 301px;
+  border-radius: 100%;
 }
 
 .footer {
