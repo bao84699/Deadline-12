@@ -98,7 +98,7 @@
     align-items: center;
     gap: 0;
     .right {
-      background-image: url(/assets/mobile-img.png);
+      background-image: url(/assets/final.png);
     }
     .left {
       margin-top: 0;
@@ -245,7 +245,6 @@
     margin-top: 48px;
   }
 }
-
 @media only screen and (max-width: 660px) {
   .header-hero {
     height: 420px;
@@ -390,27 +389,29 @@
       }
     }
   }
-  .section5 {
-    .container {
-      height: 680px;
-      .left-content {
-        .box {
-          margin: 0;
-          .big-text {
-            font-size: 24px;
+  .bottom-background{
+      
+      .section5 {
+        .container {
+          .left-content {
+            .box {
+              margin: 0;
+              .big-text {
+                font-size: 24px;
+              }
+            }
           }
-        }
-      }
-      .right-content {
-        .main {
-          .infor {
-            .text {
-              font-size: 14px;
+          .right-content {
+            .main {
+              .infor {
+                .text {
+                  font-size: 14px;
+                }
+              }
             }
           }
         }
       }
-    }
   }
   .middle-background {
     margin-top: 200px;
